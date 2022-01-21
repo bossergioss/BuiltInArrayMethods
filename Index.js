@@ -38,6 +38,13 @@ console.log(array1); */
 
 // Task 6 //
 
-const array1 = ['ddd', 'fff', 'eee'];
+/* const array1 = ['ddd', 'fff', 'eee'];
 
-console.log('Последний элемент массива: ' + array1[array1.length-1]);
+console.log('Последний элемент массива: ' + array1[array1.length-1]); */
+
+// Task 7 //
+
+const array1 = [1, 2, 3, 4, 5];
+
+const array2 = array1.slice(-3);
+console.log(array2);
