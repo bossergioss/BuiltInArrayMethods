@@ -17,7 +17,14 @@ console.log(array1); */
 
 // Task3 //
 
-const array1 = [1, 2, 3];
+/* const array1 = [1, 2, 3];
 
 array1.push(4, 5, 6);
+console.log(array1); */
+
+// Task 4 //
+
+const array1 = [1, 2, 3];
+
+array1.unshift(7, 8, 9);
 console.log(array1);
