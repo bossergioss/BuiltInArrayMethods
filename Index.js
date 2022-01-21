@@ -31,7 +31,13 @@ console.log(array1); */
 
 // Task 5 //
 
-const array1 = ['aaa', 'bbb', 'ccc'];
+/* const array1 = ['aaa', 'bbb', 'ccc'];
 
 console.log('Удалён этот элемент: ' + array1.shift());
-console.log(array1);
+console.log(array1); */
+
+// Task 6 //
+
+const array1 = ['ddd', 'fff', 'eee'];
+
+console.log('Последний элемент массива: ' + array1[array1.length-1]);
