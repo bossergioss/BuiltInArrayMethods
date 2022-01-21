@@ -51,7 +51,14 @@ console.log(array2); */
 
 // Task 8 //
 
-const arr = [1, 2, 3, 4, 5];
+/* const arr = [1, 2, 3, 4, 5];
 
 const arr2 = arr.slice(1, 4);
-console.log(arr2);
+console.log(arr2); */
+
+// Task 9 //
+
+const array1 = [1, 2, 3, 4, 5];
+
+const array2 = array1.splice(1, 2);
+console.log(array1);
