@@ -24,7 +24,14 @@ console.log(array1); */
 
 // Task 4 //
 
-const array1 = [1, 2, 3];
+/* const array1 = [1, 2, 3];
 
 array1.unshift(7, 8, 9);
+console.log(array1); */
+
+// Task 5 //
+
+const array1 = ['aaa', 'bbb', 'ccc'];
+
+console.log('Удалён этот элемент: ' + array1.shift());
 console.log(array1);
