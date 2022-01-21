@@ -44,7 +44,14 @@ console.log('Последний элемент массива: ' + array1[array1
 
 // Task 7 //
 
-const array1 = [1, 2, 3, 4, 5];
+/* const array1 = [1, 2, 3, 4, 5];
 
 const array2 = array1.slice(-3);
-console.log(array2);
+console.log(array2); */
+
+// Task 8 //
+
+const arr = [1, 2, 3, 4, 5];
+
+const arr2 = arr.slice(1, 4);
+console.log(arr2);
