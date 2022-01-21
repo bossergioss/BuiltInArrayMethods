@@ -10,7 +10,14 @@ console.log(array3); */
 
 // Task 2 //
 
-const array1 = [1, 2, 3];
+/* const array1 = [1, 2, 3];
 
 array1.reverse();
+console.log(array1); */
+
+// Task3 //
+
+const array1 = [1, 2, 3];
+
+array1.push(4, 5, 6);
 console.log(array1);
