@@ -65,7 +65,17 @@ console.log(array1); */
 
 // Task 10 //
 
-const array1 = [1, 2, 3, 4, 5];
+/* const array1 = [1, 2, 3, 4, 5];
 
 const array2 = array1.splice(1, 3);
-console.log(array2);
+console.log(array2); */
+
+// Task 11 //
+
+const array1 = [1, 2, 3, 4, 5];
+
+ let result = array1.splice(1, 0, 'w', 'tr');
+result = array1.splice(-1, 0, 'vv');
+result = array1.splice(array1.length + 1, 0, 'a');
+console.log(array1);
+
