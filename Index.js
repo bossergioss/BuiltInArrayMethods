@@ -72,10 +72,19 @@ console.log(array2); */
 
 // Task 11 //
 
-const array1 = [1, 2, 3, 4, 5];
+/* const array1 = [1, 2, 3, 4, 5];
 
  let result = array1.splice(1, 0, 'w', 'tr');
 result = array1.splice(-1, 0, 'vv');
 result = array1.splice(array1.length + 1, 0, 'a');
-console.log(array1);
+console.log(array1); */
+
+// Task 12 //
+
+const array = [5, 8, 2, 4, 7, 1];
+
+console.log(array.sort());
+
+
+
 
